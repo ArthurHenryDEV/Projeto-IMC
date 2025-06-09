@@ -26,5 +26,5 @@ O cálculo é realizado a partir de uma operação de divisão do peso (kg) pela
 
 # Links:
 
-*YouTube*: https://youtu.be/ZbV3qmy7gXs?si=fXIhr9JDAfVNKydM
+Acesse o link para o vídeo de demonstração do projeto [aqui] (https://youtu.be/ZbV3qmy7gXs?si=fXIhr9JDAfVNKydM)
 
