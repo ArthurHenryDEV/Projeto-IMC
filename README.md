@@ -24,3 +24,7 @@ O cálculo é realizado a partir de uma operação de divisão do peso (kg) pela
 
 *Obesidade*: IMC igual ou superior a 30. 
 
+# Links:
+
+*YouTube*: https://youtu.be/ZbV3qmy7gXs?si=fXIhr9JDAfVNKydM
+
