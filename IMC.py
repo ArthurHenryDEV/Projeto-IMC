@@ -13,7 +13,8 @@ def classificar_imc(imc):
     elif 35 <= imc < 39.9:
         return "Obesidade grau 2"
     else:
-        return "Obesidade grau 3" 
+        return "Obesidade grau 3"
+
 def main():
     print("Calculadora de IMC")
     while True:
@@ -23,8 +24,8 @@ def main():
             break
 
         try:
-            peso_str = input("Digite seu peso (em kg) e press enter: ").replace(',', '.')
-            altura_str = input("Digite sua altura (em metros) e press enter: ").replace(',', '.')
+            peso_str = input("Digite seu peso (em kg): ").replace(',', '.')
+            altura_str = input("Digite sua altura (em metros): ").replace(',', '.')
 
             peso = float(peso_str)
             altura = float(altura_str)
@@ -40,7 +41,7 @@ def main():
             print(f"Classificação: {classificacao}")
 
         except ValueError:
-            print("Por favor, insira valores numéricos válidos para peso e altura em Kg e em metros.")
+            print("Por favor, insira valores numéricos válidos para peso e altura.")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
